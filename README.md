@@ -1,9 +1,15 @@
 # Neon Punk Design System
 Transporeon DSE Test Submission by Martin Nørgaard Gregersen
 
-DEMO and DOCS: [https://www.figma.com/file/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=310%3A15786&mode=design&t=AorGTT1d89BXdvLy-1](https://www.figma.com/proto/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=45-11679&scaling=min-zoom&page-id=45%3A11678&starting-point-node-id=45%3A11679)
+FIGMA: [https://www.figma.com/file/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=310%3A15786&mode=design&t=AorGTT1d89BXdvLy-1](https://www.figma.com/proto/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=45-11679&scaling=min-zoom&page-id=45%3A11678&starting-point-node-id=45%3A11679)
 
-## Welcome to the Neon Punk Design System  v.0.1.0 by Martin Nørgaard Gregersen
+STORYBOOK: 
+1. git clone https://github.com/Paradigm-Shift-Dev/Neon-Punk-Design-System.git
+2. cd Neon-Punk-Design-System/components
+3. npm install
+4. npm run storybook
+
+## Welcome to the Neon Punk Design System v.0.1.0 by Martin Nørgaard Gregersen
 
 Embark on a journey into the future with our revolutionary design system, crafted for the bold and innovative. In this neon-lit universe, we seamlessly blend futuristic aesthetics with cutting-edge technology, empowering you to create stunning interfaces that defy the ordinary.
 
