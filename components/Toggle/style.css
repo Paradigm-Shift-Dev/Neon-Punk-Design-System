@@ -1,0 +1,281 @@
+.toggle {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 512px;
+  position: relative;
+}
+
+.toggle .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.toggle .label-2 {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .text-2 {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.toggle .label-3 {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .div-wrapper {
+  border: 1px solid;
+  border-radius: 24px;
+  height: 24px;
+  overflow: hidden;
+  position: relative;
+  width: 48px;
+}
+
+.toggle .button-3 {
+  border-radius: 24px;
+  height: 24px;
+  width: 24px;
+}
+
+.toggle .text-3 {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.toggle .contextual-help {
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .text-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.toggle .label-4 {
+  color: var(--theme-text-inverse);
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .img {
+  height: 36px;
+  margin-left: -6px;
+  position: relative;
+  width: 60px;
+}
+
+.toggle .contextual-help-2 {
+  color: var(--theme-text-inverse);
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle .contextual-help-3 {
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.toggle.on {
+  display: inline-flex;
+  min-width: 256px;
+}
+
+.toggle.state-0-active {
+  display: inline-flex;
+  min-width: 256px;
+}
+
+.toggle.state-0-hover {
+  display: inline-flex;
+  min-width: 256px;
+}
+
+.toggle.state-0-default.off {
+  display: flex;
+  width: 268px;
+}
+
+.toggle .disabled-1-false {
+  color: var(--theme-text-inverse);
+}
+
+.toggle .disabled-1-true {
+  color: var(--theme-text-disabled);
+}
+
+.toggle .state-3-active {
+  background-color: #50e6e6;
+  box-shadow: 0px 1px 6px #50e6e6;
+}
+
+.toggle .state-3-hover {
+  background-color: #111919;
+  box-shadow: 0px 1px 6px #50e6e6;
+}
+
+.toggle .disabled-2-true {
+  border-color: var(--theme-border-neutral);
+}
+
+.toggle .state-3-default {
+  background-color: #111919;
+  box-shadow: 0px 1px 6px #50e6e699;
+}
+
+.toggle .disabled-2-false.state-3-active {
+  border-color: #50e6e6;
+}
+
+.toggle .state-3-default.disabled-2-false {
+  border-color: #ffffff;
+}
+
+.toggle .state-3-hover.disabled-2-false {
+  border-color: #50e6e6;
+}
+
+.toggle .checked-on {
+  left: 24px;
+  position: relative;
+}
+
+.toggle .disabled-3-true {
+  background-color: var(--theme-bg-app);
+  border: 1px solid;
+  border-color: var(--theme-border-neutral);
+}
+
+.toggle .disabled-3-false.state-4-active {
+  background-color: #111919;
+}
+
+.toggle .state-4-default.disabled-3-false {
+  background-color: #50e6e6;
+}
+
+.toggle .state-4-hover.disabled-3-false {
+  background-color: #50e6e6;
+}
+
+.toggle .disabled-4-false {
+  color: var(--theme-text-inverse);
+}
+
+.toggle .disabled-4-true {
+  color: var(--theme-text-disabled);
+}
+
+.toggle.state-0-active .text-2 {
+  display: inline-flex;
+}
+
+.toggle.state-0-default .text-2 {
+  display: flex;
+  width: 250px;
+}
+
+.toggle.state-0-hover .text-2 {
+  display: inline-flex;
+}
+
+.toggle.state-0-active .label-3 {
+  color: var(--theme-text-inverse);
+}
+
+.toggle.state-0-default .label-3 {
+  color: var(--theme-text-disabled);
+}
+
+.toggle.state-0-hover .label-3 {
+  color: var(--theme-text-inverse);
+}
+
+.toggle.state-0-active .text-3 {
+  display: inline-flex;
+}
+
+.toggle.state-0-default .text-3 {
+  display: flex;
+  width: 250px;
+}
+
+.toggle.state-0-hover .text-3 {
+  display: inline-flex;
+}
+
+.toggle.state-0-active .contextual-help {
+  color: var(--theme-text-inverse);
+}
+
+.toggle.state-0-default .contextual-help {
+  color: var(--theme-text-disabled);
+}
+
+.toggle.state-0-hover .contextual-help {
+  color: var(--theme-text-inverse);
+}

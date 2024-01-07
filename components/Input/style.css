@@ -1,0 +1,133 @@
+.input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 512px;
+  position: relative;
+  width: 395px;
+}
+
+.input .label {
+  align-self: stretch;
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.input .field {
+  align-self: stretch;
+  background-color: var(--theme-bg-app);
+  border: 1.5px solid;
+  border-radius: 4px;
+  flex: 1;
+  font-family: var(--ui-medium-regular-font-family);
+  font-size: var(--ui-medium-regular-font-size);
+  font-style: var(--ui-medium-regular-font-style);
+  font-weight: var(--ui-medium-regular-font-weight);
+  height: 32px;
+  letter-spacing: var(--ui-medium-regular-letter-spacing);
+  line-height: var(--ui-medium-regular-line-height);
+  margin-bottom: -2.5px;
+  margin-top: -1.5px;
+  max-height: 32px;
+  max-width: 512px;
+  min-width: 200px;
+  overflow: hidden;
+  padding: 6px 8px;
+  position: relative;
+  width: 100%;
+}
+
+.input .helpful-text-to {
+  align-self: stretch;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  position: relative;
+}
+
+.input .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.input .icon-close {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.input .text-wrapper {
+  color: var(--theme-text-error);
+  flex: 1;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.input .invalid-true {
+  color: var(--theme-text-error);
+}
+
+.input .invalid-false.disabled-false {
+  color: var(--theme-text-inverse);
+}
+
+.input .invalid-false.disabled-true {
+  color: var(--theme-text-disabled);
+}
+
+.input .hover {
+  border-color: var(--theme-border-accent);
+}
+
+.input .disabled-0-true {
+  color: var(--theme-text-disabled);
+}
+
+.input .active-focused {
+  border-color: var(--theme-border-accent);
+}
+
+.input .disabled-0-false {
+  color: var(--theme-text-inverse);
+}
+
+.input .default.disabled-0-true {
+  border-color: var(--theme-border-app);
+}
+
+.input .default.invalid-0-false.disabled-0-false {
+  border-color: var(--theme-border-neutral);
+}
+
+.input .default.disabled-0-false.invalid-0-true {
+  border-color: var(--theme-border-error);
+}
+
+.input .disabled-1-false {
+  color: var(--theme-text-inverse);
+}
+
+.input .disabled-1-true {
+  color: var(--theme-text-disabled);
+}

@@ -1,0 +1,480 @@
+.range-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  justify-content: center;
+  position: relative;
+  width: 280px;
+}
+
+.range-list .range {
+  position: relative;
+  width: 280px;
+}
+
+.range-list .overlap-group {
+  position: relative;
+}
+
+.range-list .text {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 253px;
+  position: absolute;
+  top: 52px;
+  width: 20px;
+}
+
+.range-list .element {
+  color: var(--theme-text-inverse);
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .div {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 52px;
+  width: 20px;
+}
+
+.range-list .text-wrapper {
+  color: #50e6e6;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .text-2 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 52px;
+  width: 20px;
+}
+
+.range-list .text-wrapper-2 {
+  color: #ffffff;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .range-input {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 280px;
+}
+
+.range-list .text-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 280px;
+}
+
+.range-list .label {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .overlap-wrapper {
+  position: relative;
+  width: 280px;
+}
+
+.range-list .overlap {
+  position: relative;
+}
+
+.range-list .text-4 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 52px;
+  width: 20px;
+}
+
+.range-list .text-5 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 52px;
+  width: 20px;
+}
+
+.range-list .label-2 {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .overlap-group-wrapper {
+  height: 49px;
+  position: relative;
+  width: 280px;
+}
+
+.range-list .overlap-2 {
+  height: 56px;
+  position: relative;
+}
+
+.range-list .label-3 {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .help {
+  height: 20px;
+  position: relative;
+  width: 273px;
+}
+
+.range-list .text-6 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 253px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.range-list .element-2 {
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .overlap-3 {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.range-list .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+}
+
+.range-list .text-wrapper-3 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .text-7 {
+  align-items: flex-start;
+  box-shadow: 0px 1px 6px #50e6e699;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.range-list .text-8 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 130px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.range-list .text-9 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.range-list .text-wrapper-4 {
+  color: var(--theme-text-disabled);
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.range-list .disabled {
+  height: 49px;
+}
+
+.range-list .active {
+  height: 72px;
+}
+
+.range-list .default {
+  height: 49px;
+}
+
+.range-list .hover {
+  height: 72px;
+}
+
+.range-list .state-2-disabled {
+  height: 49px;
+}
+
+.range-list .state-2-active {
+  height: 72px;
+}
+
+.range-list .state-2-default {
+  height: 49px;
+}
+
+.range-list .state-2-hover {
+  height: 72px;
+}
+
+.range-list .state-6-disabled {
+  color: var(--theme-text-disabled);
+}
+
+.range-list .state-6-active {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-6-default {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-6-hover {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-7-disabled {
+  color: var(--theme-text-disabled);
+}
+
+.range-list .state-7-active {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-7-default {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-7-hover {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .state-8-disabled {
+  position: relative;
+}
+
+.range-list .state-8-active {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.range-list .state-8-default {
+  position: relative;
+}
+
+.range-list .state-8-hover {
+  position: relative;
+}
+
+.range-list .range.disabled .overlap-group {
+  height: 56px;
+}
+
+.range-list .range.active .overlap-group {
+  height: 72px;
+}
+
+.range-list .range.default .overlap-group {
+  height: 56px;
+}
+
+.range-list .range.hover .overlap-group {
+  height: 72px;
+}
+
+.range-list .range.active .text-2 {
+  box-shadow: 0px 1px 6px #50e6e699;
+}
+
+.range-list .range.disabled .label {
+  color: var(--theme-text-disabled);
+}
+
+.range-list .range.active .label {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .range.default .label {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .range.hover .label {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .overlap-wrapper.state-2-disabled .overlap {
+  height: 56px;
+}
+
+.range-list .overlap-wrapper.state-2-active .overlap {
+  height: 72px;
+}
+
+.range-list .overlap-wrapper.state-2-default .overlap {
+  height: 56px;
+}
+
+.range-list .overlap-wrapper.state-2-hover .overlap {
+  height: 72px;
+}
+
+.range-list .overlap-wrapper.state-2-active .text-5 {
+  box-shadow: 0px 1px 6px #50e6e699;
+}
+
+.range-list .overlap-wrapper.state-2-disabled .label-2 {
+  color: var(--theme-text-disabled);
+}
+
+.range-list .overlap-wrapper.state-2-active .label-2 {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .overlap-wrapper.state-2-default .label-2 {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .overlap-wrapper.state-2-hover .label-2 {
+  color: var(--theme-text-inverse);
+}
+
+.range-list .div-wrapper.state-8-disabled .text-wrapper-3 {
+  color: #ffffff;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+}
+
+.range-list .div-wrapper.state-8-active .text-wrapper-3 {
+  color: #50e6e6;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.range-list .div-wrapper.state-8-default .text-wrapper-3 {
+  color: #ffffff;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+}
+
+.range-list .div-wrapper.state-8-hover .text-wrapper-3 {
+  color: #ffffff;
+  font-family: var(--paragraph-small-regular-font-family);
+  font-size: var(--paragraph-small-regular-font-size);
+  font-style: var(--paragraph-small-regular-font-style);
+  font-weight: var(--paragraph-small-regular-font-weight);
+  letter-spacing: var(--paragraph-small-regular-letter-spacing);
+  line-height: var(--paragraph-small-regular-line-height);
+}

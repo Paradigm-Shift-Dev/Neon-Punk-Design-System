@@ -1,0 +1,124 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px;
+  position: relative;
+}
+
+.button .wrap {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 8px;
+  position: relative;
+}
+
+.button .label {
+  font-family: var(--ui-medium-bold-font-family);
+  font-size: var(--ui-medium-bold-font-size);
+  font-style: var(--ui-medium-bold-font-style);
+  font-weight: var(--ui-medium-bold-font-weight);
+  letter-spacing: var(--ui-medium-bold-letter-spacing);
+  line-height: var(--ui-medium-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .icon-chevron-down {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button.active {
+  box-shadow: 0px 1px 6px #50e6e6;
+}
+
+.button.hover {
+  box-shadow: 0px 1px 6px #50e6e6;
+}
+
+.button.primary.default {
+  background-color: #11191999;
+  border: 1px solid;
+  border-color: #50e6e6;
+}
+
+.button.hover.disabled-true {
+  border: 1.5px solid;
+}
+
+.button.secondary.active {
+  border: 1.5px solid;
+  border-color: var(--theme-border-accent);
+}
+
+.button.secondary.disabled-true {
+  border: 1.5px solid;
+}
+
+.button.primary.active {
+  background-color: #11191999;
+  border: 1px solid;
+  border-color: #50e6e6;
+}
+
+.button.hover.secondary {
+  background-color: #50e6e6;
+  border: 1.5px solid;
+  border-color: var(--theme-border-accent);
+}
+
+.button.default.disabled-false {
+  border: 1px solid;
+  border-color: #50e6e6;
+}
+
+.button.hover.primary {
+  background-color: var(--theme-bg-accent-hover);
+}
+
+.button.hover.primary.disabled-true {
+  border-color: var(--theme-border-neutral);
+}
+
+.button.secondary.default.disabled-true {
+  border-color: var(--theme-border-neutral);
+}
+
+.button.hover .label {
+  color: var(--theme-text-primary);
+}
+
+.button.primary.default .label {
+  color: var(--theme-text-inverse);
+}
+
+.button.primary.active .label {
+  color: var(--theme-text-inverse);
+}
+
+.button.disabled-false.secondary.active .label {
+  color: var(--theme-text-accent);
+}
+
+.button.secondary.active.disabled-true .label {
+  color: var(--theme-text-disabled);
+}
+
+.button.secondary.default.disabled-false .label {
+  color: var(--theme-text-accent);
+}
+
+.button.secondary.default.disabled-true .label {
+  color: var(--theme-text-disabled);
+}
