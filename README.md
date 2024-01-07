@@ -7,7 +7,8 @@ STORYBOOK:
 1. git clone https://github.com/Paradigm-Shift-Dev/Neon-Punk-Design-System.git
 2. cd Neon-Punk-Design-System/components
 3. npm install
-4. npm run storybook
+4. rename folder components/storybook to components/.storybook
+5. npm run storybook
 
 ## Welcome to the Neon Punk Design System v.0.1.0 by Martin Nørgaard Gregersen
 
