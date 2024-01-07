@@ -1,4 +1,4 @@
-# Neon-Punk-Design-System
+# Neon Punk Design System
 Transporeon DSE Test Submission by Martin Nørgaard Gregersen
 
 DEMO and DOCS: [https://www.figma.com/file/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=310%3A15786&mode=design&t=AorGTT1d89BXdvLy-1](https://www.figma.com/proto/iUelMhkTcWaM8WQRH4FpYg/Design-Punk-Design-System---Martin-N%C3%B8rgaard-Gregersen-DSE-Test-task?type=design&node-id=45-11679&scaling=min-zoom&page-id=45%3A11678&starting-point-node-id=45%3A11679)
