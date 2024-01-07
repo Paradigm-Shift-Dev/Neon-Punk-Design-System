@@ -3,6 +3,7 @@ import { Dropdown } from ".";
 export default {
   title: "Components/Dropdown",
   component: Dropdown,
+  tags: ['autodocs'],
   argTypes: {
     state: {
       options: ["hover", "default"],

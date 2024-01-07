@@ -3,6 +3,7 @@ import { Range } from ".";
 export default {
   title: "Components/Range",
   component: Range,
+  tags: ['autodocs'],
   argTypes: {
     stateProp: {
       options: ["disabled", "hover", "active", "default"],

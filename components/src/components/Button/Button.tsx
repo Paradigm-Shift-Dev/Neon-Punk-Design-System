@@ -1,13 +1,8 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
-import { Icon20ChevronDown22 } from "../icons/Icon20ChevronDown22";
-import { Icon20Done6 } from "../icons/Icon20Done6";
+import { Icon20ChevronDown } from "../icons/Icon20ChevronDown";
+import { Icon20Done4 } from "../icons/Icon20Done4";
 import "./style.css";
 
 interface Props {
@@ -19,7 +14,6 @@ interface Props {
   stateProp: "hover" | "active" | "default";
   disabled: boolean;
   priorityPrimaryClassName: any;
-  icon: JSX.Element;
   href: string;
 }
 
@@ -32,7 +26,6 @@ export const Button = ({
   stateProp,
   disabled,
   priorityPrimaryClassName,
-  icon = <Icon20Done6 className="icon-chevron-down" color="white" />,
   href,
 }: Props): JSX.Element => {
   const [state, dispatch] = useReducer(reducer, {
@@ -52,13 +45,26 @@ export const Button = ({
           dispatch("mouse_enter");
         }}
       >
-        {showIconStart && <>{icon}</>}
+        {showIconStart && (
+          <Icon20Done4
+            className="instance-node"
+            color={
+              state.priority === "primary" && ["active", "default"].includes(state.state)
+                ? "white"
+                : state.state === "hover"
+                ? "#111919"
+                : state.disabled
+                ? "#A5B8B8"
+                : "#36D9D9"
+            }
+          />
+        )}
 
         {showLabel && <div className="wrap">{showLabel && <div className="label">{label}</div>}</div>}
 
         {showIconEnd && (
-          <Icon20ChevronDown22
-            className="icon-chevron-down"
+          <Icon20ChevronDown
+            className="instance-node"
             color={
               state.priority === "primary" && ["active", "default"].includes(state.state)
                 ? "white"

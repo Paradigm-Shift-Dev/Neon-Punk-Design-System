@@ -3,6 +3,7 @@ import { Checkbox } from ".";
 export default {
   title: "Components/Checkbox",
   component: Checkbox,
+  tags: ['autodocs'],
   argTypes: {
     stateProp: {
       options: ["hover", "active", "default"],

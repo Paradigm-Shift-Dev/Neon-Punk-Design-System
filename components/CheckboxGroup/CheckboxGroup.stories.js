@@ -3,6 +3,7 @@ import { CheckboxGroup } from ".";
 export default {
   title: "Components/CheckboxGroup",
   component: CheckboxGroup,
+  tags: ['autodocs'],
 };
 
 export const Default = {

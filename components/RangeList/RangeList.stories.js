@@ -3,6 +3,7 @@ import { RangeList } from ".";
 export default {
   title: "Components/RangeList",
   component: RangeList,
+  tags: ['autodocs'],
   argTypes: {
     state: {
       options: ["disabled", "hover", "active", "default"],

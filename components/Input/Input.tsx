@@ -6,7 +6,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
-import { Icon20Close } from "../../icons/Icon20Close";
+import { Icon20Close } from "../icons/Icon20Close";
 import "./style.css";
 
 interface Props {

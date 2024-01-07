@@ -3,6 +3,7 @@ import { Input } from ".";
 export default {
   title: "Components/Input",
   component: Input,
+  tags: ['autodocs'],
   argTypes: {
     stateProp: {
       options: ["active-focused", "hover", "default"],

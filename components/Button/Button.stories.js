@@ -3,6 +3,7 @@ import { Button } from ".";
 export default {
   title: "Components/Button",
   component: Button,
+  tags: ['autodocs'],
   argTypes: {
     priority: {
       options: ["primary", "secondary"],

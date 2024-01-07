@@ -5,7 +5,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { HoverState } from "../HoverState";
+import { HoverState } from "../DropdownHoverState";
 import "./style.css";
 
 interface Props {
