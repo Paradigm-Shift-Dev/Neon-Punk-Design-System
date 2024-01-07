@@ -10,7 +10,7 @@ STORYBOOK:
 4. rename folder components/storybook to components/.storybook
 5. npm run storybook
 
-## Welcome to the Neon Punk Design System v.0.1.0 by Martin Nørgaard Gregersen
+## Introduction to Neon Punk
 
 Embark on a journey into the future with our revolutionary design system, crafted for the bold and innovative. In this neon-lit universe, we seamlessly blend futuristic aesthetics with cutting-edge technology, empowering you to create stunning interfaces that defy the ordinary.
 
