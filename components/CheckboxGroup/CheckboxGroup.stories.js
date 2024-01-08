@@ -12,7 +12,7 @@ export const Default = {
     label: "Group title",
     errorLabel: "Group error text",
     infoLabel: "Group information text",
-    disabled: true,
+    disabled: false,
     invalid: true,
     className: {},
   },

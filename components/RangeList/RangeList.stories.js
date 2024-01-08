@@ -19,11 +19,11 @@ export default {
 export const Default = {
   args: {
     value: "Input value",
-    showHelp: true,
+    showHelp: false,
     label: "Label",
     helpLabel: "100",
     showLabel: true,
-    state: "disabled",
+    state: "default",
     value1: "zero",
     className: {},
   },

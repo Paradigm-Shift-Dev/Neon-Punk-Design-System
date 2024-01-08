@@ -19,7 +19,7 @@ export const Default = {
     label: "Label",
     showHelp: true,
     value: "Input value",
-    state: "hover",
+    state: "default",
     className: {},
   },
 };

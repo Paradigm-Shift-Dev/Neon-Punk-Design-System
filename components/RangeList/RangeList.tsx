@@ -1,8 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
@@ -46,19 +41,6 @@ export const RangeList = ({
             </>
           )}
 
-          <img
-            className="range-input"
-            alt="Range input"
-            src={
-              state === "active"
-                ? "/img/rangeinput-8.png"
-                : state === "default"
-                ? "/img/rangeinput-20.png"
-                : state === "disabled"
-                ? "/img/rangeinput-2.png"
-                : "/img/rangeinput-14.png"
-            }
-          />
           {showLabel && <div className="text-3">{showLabel && <div className="label">{label}</div>}</div>}
         </div>
       </div>
@@ -80,37 +62,12 @@ export const RangeList = ({
             </>
           )}
 
-          <img
-            className="range-input"
-            alt="Range input"
-            src={
-              state === "active"
-                ? "/img/rangeinput-8.png"
-                : state === "default"
-                ? "/img/rangeinput-20.png"
-                : state === "disabled"
-                ? "/img/rangeinput-2.png"
-                : "/img/rangeinput-14.png"
-            }
-          />
           {showLabel && <div className="text-3">{showLabel && <div className="label-2">{label}</div>}</div>}
         </div>
       </div>
       <div className="overlap-group-wrapper">
         <div className="overlap-2">
-          <img
-            className="range-input"
-            alt="Range input"
-            src={
-              state === "hover"
-                ? "/img/rangeinput-14.png"
-                : state === "active"
-                ? "/img/rangeinput-8.png"
-                : state === "disabled"
-                ? "/img/rangeinput-2.png"
-                : "/img/rangeinput-20.png"
-            }
-          />
+        
           {showLabel && (
             <div className="text-3">{showLabel && <div className={`label-3 state-6-${state}`}>{label}</div>}</div>
           )}

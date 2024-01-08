@@ -23,8 +23,8 @@ export const Default = {
     showIconStart: true,
     label: "Label",
     priority: "primary",
-    stateProp: "hover",
-    disabled: true,
+    stateProp: "default",
+    disabled: false,
     priorityPrimaryClassName: {},
   },
 };

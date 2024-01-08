@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .input {
+  font-family: 'Montserrat', sans-serif;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -9,6 +12,7 @@
 }
 
 .input .label {
+  color: white !important;
   align-self: stretch;
   font-family: var(--ui-medium-bold-font-family);
   font-size: var(--ui-medium-bold-font-size);
@@ -21,6 +25,7 @@
 }
 
 .input .field {
+  color: white !important;
   align-self: stretch;
   background-color: var(--theme-bg-app);
   border: 1.5px solid;
@@ -45,6 +50,7 @@
 }
 
 .input .helpful-text-to {
+  color: white !important;
   align-self: stretch;
   font-family: var(--paragraph-small-regular-font-family);
   font-size: var(--paragraph-small-regular-font-size);
@@ -73,6 +79,7 @@
 
 .input .text-wrapper {
   color: var(--theme-text-error);
+  color: white !important;
   flex: 1;
   font-family: var(--paragraph-small-regular-font-family);
   font-size: var(--paragraph-small-regular-font-size);
@@ -130,4 +137,9 @@
 
 .input .disabled-1-true {
   color: var(--theme-text-disabled);
+}
+
+.input .text-wrapper {
+  font-size: 0.8em;
+  color: white !important;
 }

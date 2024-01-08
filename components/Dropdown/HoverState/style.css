@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
+.hover-state {
+  height: 44px;
+  position: relative;
+  width: 280px;
+}
+
+.hover-state .item {
+  font-family: "Montserrat", Helvetica;
+  font-size: 16px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.hover-state.hover {
+  background-color: #50e6e6;
+  box-shadow: 0px 1px 6px #50e6e6;
+}
+
+.hover-state.default .item {
+  color: #36d9d9;
+  font-weight: 400;
+}
+
+.hover-state.hover .item {
+  color: #111919;
+  font-weight: 500;
+}
+
+.dropdown.state-0-hover {
+  opacity: 1;
+}

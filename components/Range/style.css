@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .range {
+  font-family: 'Montserrat', sans-serif;
   align-items: flex-start;
   display: flex;
   flex-direction: column;

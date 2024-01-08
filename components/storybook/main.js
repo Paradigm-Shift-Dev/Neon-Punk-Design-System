@@ -9,6 +9,15 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    {
+      name: '@storybook/addon-backgrounds',
+      options: {
+        backgrounds: [
+          { name: 'Default', value: '#111919', default: true },
+          { name: 'Dark', value: '#111919' },
+        ],
+      },
+    },
   ],
   framework: {
     name: "@storybook/react-vite",

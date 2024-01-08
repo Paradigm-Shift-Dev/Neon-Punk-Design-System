@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .checkbox-group {
+  font-family: 'Montserrat', sans-serif;
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -23,7 +26,8 @@
 }
 
 .checkbox-group .group-title {
-  font-family: var(--ui-medium-bold-font-family);
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
   font-size: var(--ui-medium-bold-font-size);
   font-style: var(--ui-medium-bold-font-style);
   font-weight: var(--ui-medium-bold-font-weight);
@@ -51,6 +55,7 @@
 
 .checkbox-group .group-error-text {
   color: var(--theme-text-error);
+  color: #D34417 !important;
   font-family: var(--ui-small-regular-font-family);
   font-size: var(--ui-small-regular-font-size);
   font-style: var(--ui-small-regular-font-style);
@@ -63,6 +68,7 @@
 }
 
 .checkbox-group .group-information {
+  color: #fff !important;
   font-family: var(--ui-small-regular-font-family);
   font-size: var(--ui-small-regular-font-size);
   font-style: var(--ui-small-regular-font-style);
@@ -105,4 +111,9 @@
 
 .checkbox-group .disabled-6-true {
   color: var(--theme-text-disabled);
+}
+
+.box {
+  border-color: white !important;
+  background-color: white !important;
 }

@@ -23,7 +23,7 @@ export const Default = {
     label: "Label",
     helpLabel: "100",
     showLabel: true,
-    stateProp: "disabled",
+    stateProp: "default",
     value1: "zero",
     className: {},
   },

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .toggle {
+  font-family: 'Montserrat', sans-serif;
   align-items: flex-start;
   flex-direction: column;
   gap: 8px;
@@ -7,6 +10,7 @@
 }
 
 .toggle .text {
+  color: white !important;
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -117,6 +121,7 @@
   color: var(--theme-text-inverse);
   font-family: var(--paragraph-small-regular-font-family);
   font-size: var(--paragraph-small-regular-font-size);
+  font-size: 0.8em !important;
   font-style: var(--paragraph-small-regular-font-style);
   font-weight: var(--paragraph-small-regular-font-weight);
   letter-spacing: var(--paragraph-small-regular-letter-spacing);
@@ -130,6 +135,7 @@
 .toggle .contextual-help-3 {
   font-family: var(--paragraph-small-regular-font-family);
   font-size: var(--paragraph-small-regular-font-size);
+  font-size: 0.8em !important;
   font-style: var(--paragraph-small-regular-font-style);
   font-weight: var(--paragraph-small-regular-font-weight);
   letter-spacing: var(--paragraph-small-regular-letter-spacing);

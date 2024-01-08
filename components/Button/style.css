@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .button {
+  font-family: 'Montserrat', sans-serif;
   all: unset;
   align-items: center;
   border-radius: 8px;
@@ -21,12 +24,13 @@
 }
 
 .button .label {
-  font-family: var(--ui-medium-bold-font-family);
+  font-family: 'Montserrat', sans-serif;
   font-size: var(--ui-medium-bold-font-size);
   font-style: var(--ui-medium-bold-font-style);
   font-weight: var(--ui-medium-bold-font-weight);
   letter-spacing: var(--ui-medium-bold-letter-spacing);
   line-height: var(--ui-medium-bold-line-height);
+  color: white;
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
@@ -100,7 +104,8 @@
 }
 
 .button.primary.default .label {
-  color: var(--theme-text-inverse);
+  color: var(--theme-text-primary);
+  color: white !important;
 }
 
 .button.primary.active .label {

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poly&display=swap');
+
 .checkbox {
+  font-family: 'Montserrat', sans-serif;
   align-items: flex-start;
   gap: 8px;
   max-width: 512px;
@@ -14,6 +17,7 @@
 }
 
 .checkbox .text {
+  color: white;
   align-items: flex-start;
   display: flex;
   flex: 1;
@@ -38,6 +42,7 @@
 .checkbox .contextual-help {
   font-family: var(--paragraph-small-regular-font-family);
   font-size: var(--paragraph-small-regular-font-size);
+  font-size: 0.8em;
   font-style: var(--paragraph-small-regular-font-style);
   font-weight: var(--paragraph-small-regular-font-weight);
   letter-spacing: var(--paragraph-small-regular-letter-spacing);
@@ -119,6 +124,8 @@
 .checkbox .disabled-1-false {
   background-color: var(--theme-bg-neutral-default);
   border-color: var(--theme-border-neutral);
+  background-color: white !important;
+  border-color: white !important;
 }
 
 .checkbox .disabled-1-true {
